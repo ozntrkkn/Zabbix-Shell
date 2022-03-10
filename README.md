@@ -1,4 +1,4 @@
-## Zabbix 4.4 Version on Ubuntu 18.04
+## Zabbix 6.0 Version on Ubuntu 20.04
 İnstallation Shell Script。
 
 DBname : zabbix

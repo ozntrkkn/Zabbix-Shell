@@ -1,5 +1,5 @@
 
-#Ubuntu 18.04 Version installation Script
+#Ubuntu 20.04 Version installation Script
 
 
 
@@ -19,9 +19,9 @@ sudo apt -y install php php-mbstring php-gd php-xml php-bcmath php-ldap php-mysq
 
 echo date.timezone = \"Europe/Istanbul\" >> /etc/php/7.2/apache2/php.ini
 
+ wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-1+ubuntu20.04_all.deb
 
-wget https://repo.zabbix.com/zabbix/4.4/debian/pool/main/z/zabbix-release/zabbix-release_4.4-1+stretch_all.deb
-sudo dpkg -i zabbix-release_4.4-1+stretch_all.deb
+sudo dpkg -i zabbix-release_6.0-1+ubuntu20.04_all.deb
 
 sudo apt -y update
 sudo apt -y install zabbix-server-mysql zabbix-frontend-php zabbix-agent
